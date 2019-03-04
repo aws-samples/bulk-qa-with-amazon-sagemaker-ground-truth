@@ -1,0 +1,41 @@
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+
+<style>
+.center {
+  text-align: center;
+  border: 3px solid white;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+/* Create five equal columns that sits next to each other */
+.column {
+  flex: 18%;
+  padding: 0 4px;
+}
+</style>
+
+<crowd-form>
+<div class="center">
+<h1> Confirm that each image is correctly labelled as "{{ task.input.sourceRef[0].label }}"</h1>
+</div>
+<div class="row">
+{% assign length = task.input.sourceRef.size | minus: 1 %}
+{% for i in (0..length) %}
+
+<div class="column">
+<crowd-card
+ image="{{ task.input.sourceRef[i].s3_image_url | grant_read_access }}">
+ <div class="center">Confirm <crowd-checkbox checked="true" name="{{ task.input.sourceRef[i].label }}-{{i}}" value="Confirmed" /></div>
+</crowd-card>
+</div>
+
+{% endfor %}
+
+
+</div>
+
+</crowd-form>
+

@@ -1,0 +1,244 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'Create BulkQA Environment for use with Amazon SageMaker Ground Truth'
+
+Metadata:
+  AWS::CloudFormation::Interface:
+    ParameterGroups:
+
+    - Label:
+        default: Labeling Job Settings
+      Parameters:
+        - pQABatchSize
+
+    - Label:
+        default: DynamoDB Table Settings
+      Parameters:
+        - pTableName
+
+    - Label:
+        default: Lambda Deployment Package Locations
+      Parameters:
+        - pLaunchBucket
+        - pLaunchKey
+        - pPreLabelingLambdaKey
+        - pPostLabelingLambdaKey
+        - pLabelCorpusKey
+        - pCALTECH101URL
+
+    ParameterLabels:
+
+      pQABatchSize:
+        default: QA Batch Size
+
+      pTableName:
+        default: Table Name
+
+      pLaunchBucket:
+        default: Launch Bucket
+
+      pLaunchKey:
+        default: Launch Lambda Deployment Package
+
+      pPreLabelingLambdaKey:
+        default: Pre-labeling Lambda Deployment Package
+
+      pPostLabelingLambdaKey:
+        default: Post-labeling Lambda Deployment Package
+
+      pLabelCorpusKey:
+        default: Label Corpus
+
+      pCALTECH101URL:
+        default: CALTECH101 Dataset URL
+
+Parameters:
+
+  pTableName:
+    Type: String
+    Default: 'BulkQALabelTable' #TODO change based on ML blog name
+    Description: 'Name of DynamoDB table'
+
+  pLaunchBucket:
+    Type: String
+    Default: 'cg-test-deployment' # TODO Change to ML blog endpoint
+    Description: S3 bucket which contains launch assets for this template
+    AllowedPattern: ^[a-zA-Z0-9-\-_.]{3,63}
+
+  pLaunchKey:
+    Type: String
+    Default: 'bulkqa/launch-lambda-bulkqa/launch-lambda-bulkqa.zip' # TODO change to ML blog endpoint
+    Description: "S3 Key of launch and teardown function's Lambda deployment package"
+    AllowedPattern: ^[a-zA-Z0-9-\-_/.]*$
+    ConstraintDescription: Must be a valid S3 key, or blank
+
+  pPreLabelingLambdaKey:
+    Type: String
+    Default: 'bulkqa/gt-src/gt-prelabeling-lambda-bulkqa.zip' # TODO change to ML blog endpoint
+    Description: S3 Key of the SageMaker Ground Truth pre-labeling Lambda deployment package
+    AllowedPattern: ^[a-zA-Z0-9-\-_/.]*$
+    ConstraintDescription: Must be a valid S3 key, or blank
+
+  pPostLabelingLambdaKey:
+    Type: String
+    Default: 'bulkqa/gt-src/gt-postlabeling-lambda-bulkqa.zip' # TODO change to ML blog endpoint
+    Description: S3 Key of the SageMaker Ground Truth post-labeling Lambda deployment package
+    AllowedPattern: ^[a-zA-Z0-9-\-_/.]*$
+    ConstraintDescription: Must be a valid S3 key, or blank
+
+  pLabelCorpusKey:
+    Type: String
+    Default: 'bulkqa/smallsample.csv' #TODO Change to ML blog endpoint
+    Description: S3 Key of the Label Corpus for the deployment package
+    AllowedPattern: ^[a-zA-Z0-9-\-_/.]*$
+    ConstraintDescription: Must be a valid S3 key, or blank
+
+  pCALTECH101URL:
+    Type: String
+    Default: 'http://www.vision.caltech.edu/Image_Datasets/Caltech101/101_ObjectCategories.tar.gz' 
+    Description: URL of the CALTECH101 Dataset
+
+  pQABatchSize:
+    Type: Number
+    Default: 25
+    Description: Number of label to review per QA batch
+
+Resources:
+
+  rDynamoDBLabelTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      AttributeDefinitions:
+        -
+         AttributeName: "s3_image_url"
+         AttributeType: "S"
+        -
+         AttributeName: "label"
+         AttributeType: "S"
+      KeySchema:
+        -
+          AttributeName: "s3_image_url"
+          KeyType: "HASH"
+        -
+          AttributeName: "label"
+          KeyType: "RANGE"
+      BillingMode: PAY_PER_REQUEST
+      TableName: !Ref pTableName
+      Tags:
+        - Key: Name
+          Value: !Sub ${AWS::StackName}-${pTableName}
+        - Key: StackName
+          Value: !Ref AWS::StackName
+
+  rBulkQAS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      Tags:
+      -
+        Key: 'StackName'
+        Value: !Ref AWS::StackName
+
+  rLambdaExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service: lambda.amazonaws.com
+          Action: sts:AssumeRole
+      ManagedPolicyArns:
+      - !Sub arn:${AWS::Partition}:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      - arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess
+      - arn:aws:iam::aws:policy/AmazonS3FullAccess
+      - arn:aws:iam::aws:policy/CloudWatchLogsFullAccess
+
+  rSageMakerExecutionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: 2012-10-17
+        Statement:
+        - Effect: Allow
+          Principal:
+            Service: sagemaker.amazonaws.com
+          Action: sts:AssumeRole
+      ManagedPolicyArns:
+      - arn:aws:iam::aws:policy/AmazonS3FullAccess
+      - arn:aws:iam::aws:policy/AmazonSageMakerFullAccess
+      - arn:aws:iam::aws:policy/AmazonDynamoDBFullAccess
+      - arn:aws:iam::aws:policy/AWSLambdaFullAccess
+
+  rLambdaLaunchFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Handler: launch-bulkqa.lambda_handler
+      MemorySize: 128
+      Role: !GetAtt rLambdaExecutionRole.Arn
+      Runtime: python3.7
+      Timeout: 900
+      Environment:
+        Variables:
+          logging_level: INFO
+      Code:
+        S3Bucket: !Ref pLaunchBucket
+        S3Key: !Ref pLaunchKey
+
+  rLambdaGTPreLabelingFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Handler: gt-prelabeling-lambda-bulkqa.lambda_handler
+      MemorySize: 128
+      Role: !GetAtt rLambdaExecutionRole.Arn
+      Runtime: python3.7
+      Timeout: 900
+      Environment:
+        Variables:
+          logging_level: INFO
+      Code:
+        S3Bucket: !Ref pLaunchBucket
+        S3Key: !Ref pPreLabelingLambdaKey
+
+  rLambdaGTPostLabelingFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Handler: gt-postlabeling-lambda-bulkqa.lambda_handler
+      MemorySize: 128
+      Role: !GetAtt rLambdaExecutionRole.Arn
+      Runtime: python3.7
+      Timeout: 900
+      Environment:
+        Variables:
+          logging_level: INFO
+          DynamoDBTable: !Ref pTableName
+      Code:
+        S3Bucket: !Ref pLaunchBucket
+        S3Key: !Ref pPostLabelingLambdaKey
+
+  rLambdaLaunchLabAction:
+    Type: Custom::LambdaLaunchLabAction
+    DependsOn:
+    - rLambdaExecutionRole
+    - rLambdaLaunchFunction
+    Properties:
+      ServiceToken: !GetAtt rLambdaLaunchFunction.Arn
+      S3Bucket: !Ref rBulkQAS3Bucket
+      DynamoDBTable: !Ref rDynamoDBLabelTable
+      LaunchBucket: !Ref pLaunchBucket
+      LabelCorpusKey: !Ref pLabelCorpusKey
+      CALTECH101URL: !Ref pCALTECH101URL
+      QABatchSize: !Ref pQABatchSize
+
+Outputs:
+
+  BulkQABucket:
+    Description: S3 Bucket that stores the manifests and output data for the Amazon SageMaker Ground Truth job.
+    Value: !Ref rBulkQAS3Bucket # Add S3 url prefix
+
+  DynamoDBLabelTableName:
+    Description: DynamoDB table for storing labeling data.
+    Value: !Ref rDynamoDBLabelTable
+
+  SageMakerRoleARN:
+    Description: IAM Role used assumed by Amazon SageMaker to invoke pre- and post-labeling functions during the Amazon SageMaker Ground Truth Job.
+    Value: !GetAtt rSageMakerExecutionRole.Arn
