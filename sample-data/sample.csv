@@ -1,0 +1,514 @@
+image_local_path,label,confidence
+BACKGROUND_Google/image_0062.jpg,Dog,99.29439545
+BACKGROUND_Google/image_0268.jpg,Saxophone,96.23989105
+BACKGROUND_Google/image_0278.jpg,Dog,92.4276123
+BACKGROUND_Google/image_0279.jpg,Dog,95.8581543
+BACKGROUND_Google/image_0465.jpg,Cat,94.44562531
+airplanes/image_0009.jpg,Seaplane,93.27937317
+airplanes/image_0035.jpg,Seaplane,90.3704834
+airplanes/image_0105.jpg,Seaplane,84.62013245
+airplanes/image_0205.jpg,Seaplane,90.40156555
+airplanes/image_0206.jpg,Seaplane,83.97818756
+beaver/image_0002.jpg,Beaver,90.88262939
+beaver/image_0003.jpg,Beaver,97.74715424
+beaver/image_0004.jpg,Beaver,96.52846527
+beaver/image_0005.jpg,Beaver,94.69256592
+beaver/image_0006.jpg,Beaver,96.54195404
+beaver/image_0007.jpg,Beaver,94.86828613
+beaver/image_0009.jpg,Beaver,94.16582489
+beaver/image_0013.jpg,Beaver,96.76006317
+beaver/image_0014.jpg,Beaver,94.39468384
+beaver/image_0015.jpg,Beaver,88.52878571
+beaver/image_0016.jpg,Beaver,95.65476227
+beaver/image_0017.jpg,Beaver,87.05165863
+beaver/image_0019.jpg,Cat,82.41685486
+beaver/image_0021.jpg,Beaver,95.98971558
+beaver/image_0022.jpg,Beaver,97.44781494
+beaver/image_0023.jpg,Beaver,91.81758881
+beaver/image_0024.jpg,Beaver,94.27144623
+beaver/image_0026.jpg,Beaver,82.31777191
+beaver/image_0027.jpg,Beaver,95.67528534
+beaver/image_0028.jpg,Beaver,89.76250458
+beaver/image_0029.jpg,Beaver,97.16335297
+beaver/image_0030.jpg,Beaver,92.63858032
+beaver/image_0031.jpg,Beaver,94.70253754
+beaver/image_0034.jpg,Beaver,94.26920319
+beaver/image_0035.jpg,Beaver,94.12485504
+beaver/image_0037.jpg,Beaver,93.25837708
+beaver/image_0040.jpg,Beaver,90.67796326
+beaver/image_0046.jpg,Beaver,96.87384033
+binocular/image_0030.jpg,Soccer Ball,90.95214844
+brain/image_0056.jpg,Soccer Ball,85.74508667
+brain/image_0065.jpg,Soccer Ball,91.76925659
+brontosaurus/image_0001.jpg,Dinosaur,90.62797546
+brontosaurus/image_0005.jpg,Dinosaur,95.36079407
+brontosaurus/image_0008.jpg,Dinosaur,94.00183105
+brontosaurus/image_0009.jpg,Dinosaur,97.83387756
+brontosaurus/image_0010.jpg,Dinosaur,98.06164551
+brontosaurus/image_0011.jpg,Dinosaur,95.74062347
+brontosaurus/image_0013.jpg,Dinosaur,95.56124115
+brontosaurus/image_0015.jpg,Dinosaur,84.97375488
+brontosaurus/image_0016.jpg,Dinosaur,85.93956757
+brontosaurus/image_0017.jpg,Dinosaur,95.11340332
+brontosaurus/image_0019.jpg,Dinosaur,95.00893402
+brontosaurus/image_0020.jpg,Dinosaur,96.98362732
+brontosaurus/image_0022.jpg,Dinosaur,90.14888
+brontosaurus/image_0023.jpg,Dinosaur,96.56526184
+brontosaurus/image_0024.jpg,Dinosaur,97.14474487
+brontosaurus/image_0025.jpg,Dinosaur,88.32198334
+brontosaurus/image_0026.jpg,Dinosaur,93.37017822
+brontosaurus/image_0028.jpg,Dinosaur,98.42856598
+brontosaurus/image_0029.jpg,Dinosaur,86.61779785
+brontosaurus/image_0032.jpg,Dinosaur,99.5816803
+brontosaurus/image_0033.jpg,Dinosaur,82.6732254
+brontosaurus/image_0036.jpg,Dinosaur,94.3693161
+brontosaurus/image_0037.jpg,Dinosaur,99.25549316
+brontosaurus/image_0041.jpg,Dinosaur,86.28897858
+brontosaurus/image_0042.jpg,Dinosaur,97.35081482
+brontosaurus/image_0043.jpg,Dinosaur,96.12880707
+chandelier/image_0036.jpg,Soccer Ball,96.57550812
+cougar_body/image_0030.jpg,Dog,98.49200439
+crab/image_0013.jpg,Crawdad,89.1951828
+crab/image_0015.jpg,Sea Turtle,89.8859787
+crayfish/image_0002.jpg,Crawdad,99.73238373
+crayfish/image_0003.jpg,Crawdad,94.82961273
+crayfish/image_0004.jpg,Crawdad,99.26782227
+crayfish/image_0005.jpg,Crawdad,96.94896698
+crayfish/image_0007.jpg,Crawdad,95.79420471
+crayfish/image_0009.jpg,Crawdad,98.49713898
+crayfish/image_0010.jpg,Crawdad,98.41668701
+crayfish/image_0011.jpg,Crawdad,93.30548859
+crayfish/image_0012.jpg,Crawdad,99.44542694
+crayfish/image_0013.jpg,Crawdad,99.42974854
+crayfish/image_0014.jpg,Crawdad,96.32865143
+crayfish/image_0015.jpg,Crawdad,99.30217743
+crayfish/image_0016.jpg,Crawdad,99.65499115
+crayfish/image_0017.jpg,Crawdad,97.28919983
+crayfish/image_0019.jpg,Crawdad,98.58743286
+crayfish/image_0020.jpg,Crawdad,99.80191803
+crayfish/image_0021.jpg,Crawdad,98.60192108
+crayfish/image_0022.jpg,Crawdad,99.20910645
+crayfish/image_0026.jpg,Crawdad,99.11213684
+crayfish/image_0028.jpg,Crawdad,91.48020172
+crayfish/image_0030.jpg,Crawdad,99.67247772
+crayfish/image_0031.jpg,Crawdad,97.31298828
+crayfish/image_0032.jpg,Crawdad,93.63347626
+crayfish/image_0034.jpg,Crawdad,86.92960358
+crayfish/image_0035.jpg,Crawdad,99.72366333
+crayfish/image_0036.jpg,Crawdad,87.15998077
+crayfish/image_0039.jpg,Crawdad,98.93608093
+crayfish/image_0040.jpg,Crawdad,94.30395508
+crayfish/image_0041.jpg,Crawdad,98.98761749
+crayfish/image_0042.jpg,Crawdad,88.74269867
+crayfish/image_0043.jpg,Crawdad,97.42704773
+crayfish/image_0045.jpg,Crawdad,94.48262024
+crayfish/image_0046.jpg,Crawdad,98.23912048
+crayfish/image_0048.jpg,Crawdad,89.79627991
+crayfish/image_0049.jpg,Crawdad,99.25831604
+crayfish/image_0050.jpg,Crawdad,81.922966
+crayfish/image_0052.jpg,Crawdad,99.5737915
+crayfish/image_0054.jpg,Crawdad,98.44364166
+crayfish/image_0055.jpg,Crawdad,99.58120728
+crayfish/image_0056.jpg,Crawdad,99.11170197
+crayfish/image_0057.jpg,Crawdad,95.93230438
+crayfish/image_0058.jpg,Crawdad,88.38285828
+crayfish/image_0061.jpg,Crawdad,87.98326111
+crayfish/image_0062.jpg,Crawdad,97.7210083
+crayfish/image_0063.jpg,Crawdad,86.29741669
+crayfish/image_0064.jpg,Crawdad,99.02725983
+crayfish/image_0065.jpg,Crawdad,99.62277985
+crayfish/image_0067.jpg,Crawdad,98.96390533
+crayfish/image_0068.jpg,Crawdad,99.87039948
+crayfish/image_0069.jpg,Crawdad,98.73495483
+crayfish/image_0070.jpg,Crawdad,98.9798584
+crocodile_head/image_0009.jpg,Dinosaur,85.09275818
+dalmatian/image_0001.jpg,Dog,87.27241516
+dalmatian/image_0002.jpg,Dog,93.71725464
+dalmatian/image_0003.jpg,Dog,93.47685242
+dalmatian/image_0004.jpg,Dog,93.66221619
+dalmatian/image_0006.jpg,Dog,93.04904175
+dalmatian/image_0007.jpg,Dog,96.57643127
+dalmatian/image_0008.jpg,Dog,91.39168549
+dalmatian/image_0009.jpg,Dog,89.17839813
+dalmatian/image_0010.jpg,Dog,97.62325287
+dalmatian/image_0011.jpg,Dog,93.31562805
+dalmatian/image_0012.jpg,Dog,93.5941925
+dalmatian/image_0013.jpg,Dog,94.89172363
+dalmatian/image_0014.jpg,Dog,93.31816864
+dalmatian/image_0015.jpg,Dog,96.35401154
+dalmatian/image_0016.jpg,Dog,94.59143829
+dalmatian/image_0017.jpg,Dog,96.72812653
+dalmatian/image_0018.jpg,Dog,98.6987381
+dalmatian/image_0019.jpg,Dog,93.94234467
+dalmatian/image_0020.jpg,Dog,94.52397156
+dalmatian/image_0021.jpg,Dog,91.34812927
+dalmatian/image_0022.jpg,Dog,95.50086212
+dalmatian/image_0023.jpg,Dog,95.27446747
+dalmatian/image_0024.jpg,Dog,96.63121033
+dalmatian/image_0024.jpg,Soccer Ball,93.52316284
+dalmatian/image_0025.jpg,Dog,95.75125885
+dalmatian/image_0026.jpg,Dog,97.13999939
+dalmatian/image_0028.jpg,Dog,97.40952301
+dalmatian/image_0029.jpg,Dog,95.02008057
+dalmatian/image_0030.jpg,Dog,92.24242401
+dalmatian/image_0031.jpg,Dog,91.81621552
+dalmatian/image_0032.jpg,Dog,94.43315125
+dalmatian/image_0033.jpg,Dog,89.22776794
+dalmatian/image_0034.jpg,Dog,93.99110413
+dalmatian/image_0035.jpg,Dog,96.09288025
+dalmatian/image_0036.jpg,Dog,93.56433868
+dalmatian/image_0037.jpg,Dog,95.59960938
+dalmatian/image_0038.jpg,Soccer Ball,87.66442871
+dalmatian/image_0039.jpg,Dog,93.28079987
+dalmatian/image_0040.jpg,Dog,97.62904358
+dalmatian/image_0041.jpg,Dog,98.2767334
+dalmatian/image_0042.jpg,Dog,91.04237366
+dalmatian/image_0043.jpg,Dog,98.19818115
+dalmatian/image_0044.jpg,Dog,97.4667511
+dalmatian/image_0045.jpg,Dog,94.24207306
+dalmatian/image_0046.jpg,Dog,92.27513885
+dalmatian/image_0047.jpg,Dog,83.7250061
+dalmatian/image_0048.jpg,Dog,92.84909821
+dalmatian/image_0049.jpg,Dog,94.25548553
+dalmatian/image_0050.jpg,Dog,94.07394409
+dalmatian/image_0052.jpg,Dog,90.29346466
+dalmatian/image_0053.jpg,Dog,94.74198151
+dalmatian/image_0054.jpg,Dog,95.54575348
+dalmatian/image_0055.jpg,Dog,92.80754089
+dalmatian/image_0056.jpg,Dog,98.59957886
+dalmatian/image_0057.jpg,Dog,86.33496094
+dalmatian/image_0058.jpg,Dog,93.56816864
+dalmatian/image_0059.jpg,Dog,94.30136871
+dalmatian/image_0060.jpg,Dog,91.18760681
+dalmatian/image_0061.jpg,Dog,92.28492737
+dalmatian/image_0062.jpg,Dog,96.72766113
+dalmatian/image_0063.jpg,Dog,96.96624756
+dalmatian/image_0064.jpg,Dog,96.5099411
+dalmatian/image_0065.jpg,Dog,92.67076111
+dalmatian/image_0066.jpg,Dog,99.79171753
+dalmatian/image_0067.jpg,Dog,98.18747711
+euphonium/image_0050.jpg,Saxophone,88.95337677
+gramophone/image_0045.jpg,Soccer Ball,89.72505188
+hawksbill/image_0001.jpg,Sea Turtle,93.62611389
+hawksbill/image_0002.jpg,Sea Turtle,97.19001007
+hawksbill/image_0003.jpg,Sea Turtle,98.33322906
+hawksbill/image_0006.jpg,Sea Turtle,97.45982361
+hawksbill/image_0007.jpg,Sea Turtle,97.73838043
+hawksbill/image_0008.jpg,Sea Turtle,96.20540619
+hawksbill/image_0009.jpg,Sea Turtle,96.6370697
+hawksbill/image_0010.jpg,Sea Turtle,94.48987579
+hawksbill/image_0011.jpg,Sea Turtle,96.90853119
+hawksbill/image_0012.jpg,Sea Turtle,95.81497192
+hawksbill/image_0014.jpg,Sea Turtle,97.4030304
+hawksbill/image_0015.jpg,Sea Turtle,98.6673584
+hawksbill/image_0016.jpg,Sea Turtle,96.48471832
+hawksbill/image_0017.jpg,Sea Turtle,94.9367981
+hawksbill/image_0018.jpg,Sea Turtle,98.61628723
+hawksbill/image_0019.jpg,Sea Turtle,85.3298645
+hawksbill/image_0022.jpg,Sea Turtle,89.03730774
+hawksbill/image_0023.jpg,Sea Turtle,85.58065796
+hawksbill/image_0025.jpg,Sea Turtle,86.05195618
+hawksbill/image_0026.jpg,Sea Turtle,98.59714508
+hawksbill/image_0027.jpg,Sea Turtle,96.87000275
+hawksbill/image_0028.jpg,Sea Turtle,98.21810913
+hawksbill/image_0030.jpg,Sea Turtle,81.65229797
+hawksbill/image_0031.jpg,Sea Turtle,97.06316376
+hawksbill/image_0032.jpg,Sea Turtle,88.45913696
+hawksbill/image_0034.jpg,Sea Turtle,96.06954193
+hawksbill/image_0035.jpg,Sea Turtle,93.960289
+hawksbill/image_0037.jpg,Sea Turtle,95.8154068
+hawksbill/image_0039.jpg,Sea Turtle,96.32957458
+hawksbill/image_0040.jpg,Sea Turtle,97.58778381
+hawksbill/image_0041.jpg,Sea Turtle,98.11727905
+hawksbill/image_0042.jpg,Sea Turtle,97.64806366
+hawksbill/image_0043.jpg,Sea Turtle,96.45866394
+hawksbill/image_0044.jpg,Sea Turtle,95.52394104
+hawksbill/image_0045.jpg,Sea Turtle,97.70672607
+hawksbill/image_0046.jpg,Sea Turtle,94.01391602
+hawksbill/image_0047.jpg,Sea Turtle,96.70707703
+hawksbill/image_0048.jpg,Sea Turtle,98.38710785
+hawksbill/image_0049.jpg,Sea Turtle,98.13252258
+hawksbill/image_0050.jpg,Sea Turtle,97.34734344
+hawksbill/image_0051.jpg,Sea Turtle,94.24082947
+hawksbill/image_0052.jpg,Sea Turtle,97.10442352
+hawksbill/image_0053.jpg,Sea Turtle,97.9759903
+hawksbill/image_0055.jpg,Sea Turtle,97.40839386
+hawksbill/image_0056.jpg,Sea Turtle,95.0851059
+hawksbill/image_0057.jpg,Sea Turtle,98.80979919
+hawksbill/image_0058.jpg,Sea Turtle,96.71424866
+hawksbill/image_0059.jpg,Sea Turtle,97.3737793
+hawksbill/image_0060.jpg,Sea Turtle,93.48898315
+hawksbill/image_0061.jpg,Sea Turtle,99.56092834
+hawksbill/image_0062.jpg,Sea Turtle,97.61789703
+hawksbill/image_0063.jpg,Sea Turtle,96.59809113
+hawksbill/image_0064.jpg,Sea Turtle,91.92712402
+hawksbill/image_0065.jpg,Sea Turtle,96.94007874
+hawksbill/image_0066.jpg,Sea Turtle,97.41809845
+hawksbill/image_0067.jpg,Sea Turtle,96.13603973
+hawksbill/image_0068.jpg,Sea Turtle,93.15361786
+hawksbill/image_0069.jpg,Sea Turtle,97.11679077
+hawksbill/image_0070.jpg,Sea Turtle,84.3736496
+hawksbill/image_0071.jpg,Sea Turtle,97.7009964
+hawksbill/image_0072.jpg,Sea Turtle,96.21173096
+hawksbill/image_0073.jpg,Sea Turtle,80.92263794
+hawksbill/image_0074.jpg,Sea Turtle,92.49947357
+hawksbill/image_0075.jpg,Sea Turtle,92.45036316
+hawksbill/image_0076.jpg,Sea Turtle,97.74156952
+hawksbill/image_0078.jpg,Sea Turtle,98.39827728
+hawksbill/image_0079.jpg,Sea Turtle,95.80872345
+hawksbill/image_0080.jpg,Sea Turtle,96.87008667
+hawksbill/image_0081.jpg,Sea Turtle,96.85967255
+hawksbill/image_0082.jpg,Sea Turtle,95.18365479
+hawksbill/image_0083.jpg,Sea Turtle,95.05504608
+hawksbill/image_0084.jpg,Sea Turtle,97.91530609
+hawksbill/image_0085.jpg,Sea Turtle,97.23412323
+hawksbill/image_0087.jpg,Sea Turtle,83.38691711
+hawksbill/image_0088.jpg,Sea Turtle,97.8667984
+hawksbill/image_0089.jpg,Sea Turtle,89.33533478
+hawksbill/image_0091.jpg,Sea Turtle,98.2589798
+hawksbill/image_0093.jpg,Sea Turtle,97.07998657
+hawksbill/image_0094.jpg,Sea Turtle,85.73787689
+hawksbill/image_0095.jpg,Sea Turtle,98.36610413
+hawksbill/image_0096.jpg,Sea Turtle,97.48448944
+hawksbill/image_0097.jpg,Sea Turtle,93.66207886
+hawksbill/image_0098.jpg,Sea Turtle,97.67173004
+hawksbill/image_0099.jpg,Sea Turtle,90.84492493
+helicopter/image_0083.jpg,Soccer Ball,80.59784698
+lobster/image_0004.jpg,Crawdad,94.63715363
+lobster/image_0005.jpg,Crawdad,92.59091187
+lobster/image_0011.jpg,Crawdad,97.27253723
+lobster/image_0012.jpg,Crawdad,97.33380127
+lobster/image_0013.jpg,Crawdad,89.19259644
+lobster/image_0020.jpg,Crawdad,97.98284149
+lobster/image_0024.jpg,Crawdad,96.96828461
+lobster/image_0027.jpg,Crawdad,96.58415222
+lobster/image_0029.jpg,Crawdad,99.86843109
+lobster/image_0031.jpg,Crawdad,98.67251587
+lobster/image_0032.jpg,Crawdad,95.69934082
+lobster/image_0035.jpg,Crawdad,96.9274292
+lobster/image_0040.jpg,Crawdad,96.10546875
+lobster/image_0041.jpg,Crawdad,93.97974396
+nautilus/image_0016.jpg,Soccer Ball,96.20415497
+nautilus/image_0046.jpg,Soccer Ball,84.68321228
+panda/image_0005.jpg,Soccer Ball,91.08600616
+platypus/image_0031.jpg,Beaver,82.54386139
+platypus/image_0032.jpg,Sea Turtle,82.63726044
+rhino/image_0007.jpg,Dinosaur,91.36440277
+rhino/image_0041.jpg,Dinosaur,97.57541656
+saxophone/image_0001.jpg,Saxophone,97.21833038
+saxophone/image_0002.jpg,Saxophone,92.28688812
+saxophone/image_0003.jpg,Saxophone,90.02056122
+saxophone/image_0005.jpg,Saxophone,94.4614563
+saxophone/image_0006.jpg,Saxophone,98.66572571
+saxophone/image_0007.jpg,Saxophone,99.29197693
+saxophone/image_0008.jpg,Saxophone,92.95290375
+saxophone/image_0009.jpg,Saxophone,94.69451904
+saxophone/image_0010.jpg,Saxophone,95.61266327
+saxophone/image_0011.jpg,Saxophone,94.64408875
+saxophone/image_0013.jpg,Saxophone,95.7767868
+saxophone/image_0014.jpg,Saxophone,92.60153198
+saxophone/image_0015.jpg,Saxophone,96.48659515
+saxophone/image_0016.jpg,Saxophone,93.80593872
+saxophone/image_0017.jpg,Saxophone,93.10719299
+saxophone/image_0018.jpg,Saxophone,94.93930817
+saxophone/image_0019.jpg,Saxophone,91.30282593
+saxophone/image_0020.jpg,Saxophone,91.89453888
+saxophone/image_0021.jpg,Saxophone,96.4373703
+saxophone/image_0022.jpg,Saxophone,91.27490997
+saxophone/image_0023.jpg,Saxophone,94.76132202
+saxophone/image_0024.jpg,Saxophone,96.24915314
+saxophone/image_0025.jpg,Saxophone,93.76449585
+saxophone/image_0026.jpg,Saxophone,91.0227356
+saxophone/image_0027.jpg,Saxophone,90.41400909
+saxophone/image_0028.jpg,Saxophone,97.189888
+saxophone/image_0029.jpg,Saxophone,93.9116745
+saxophone/image_0030.jpg,Saxophone,98.27567291
+saxophone/image_0031.jpg,Saxophone,92.28338623
+saxophone/image_0032.jpg,Saxophone,96.75016785
+saxophone/image_0033.jpg,Saxophone,97.77025604
+saxophone/image_0034.jpg,Saxophone,95.627388
+saxophone/image_0035.jpg,Saxophone,89.74820709
+saxophone/image_0036.jpg,Saxophone,91.17115021
+saxophone/image_0037.jpg,Saxophone,93.31630707
+saxophone/image_0038.jpg,Saxophone,95.94606018
+saxophone/image_0039.jpg,Saxophone,94.81556702
+saxophone/image_0040.jpg,Saxophone,84.4773407
+scorpion/image_0030.jpg,Crawdad,89.57739258
+scorpion/image_0046.jpg,Crawdad,93.65769958
+sea_horse/image_0048.jpg,Soccer Ball,94.42215729
+snoopy/image_0009.jpg,Soccer Ball,85.24834442
+snoopy/image_0021.jpg,Soccer Ball,82.46464539
+snoopy/image_0035.jpg,Soccer Ball,91.24716187
+soccer_ball/image_0001.jpg,Soccer Ball,99.99812317
+soccer_ball/image_0002.jpg,Soccer Ball,99.99855804
+soccer_ball/image_0003.jpg,Soccer Ball,99.89398193
+soccer_ball/image_0004.jpg,Soccer Ball,99.99721527
+soccer_ball/image_0005.jpg,Soccer Ball,85.18699646
+soccer_ball/image_0006.jpg,Soccer Ball,99.68515015
+soccer_ball/image_0007.jpg,Soccer Ball,99.99967194
+soccer_ball/image_0008.jpg,Soccer Ball,99.99919128
+soccer_ball/image_0009.jpg,Soccer Ball,99.99825287
+soccer_ball/image_0010.jpg,Soccer Ball,99.9959259
+soccer_ball/image_0011.jpg,Soccer Ball,99.99849701
+soccer_ball/image_0012.jpg,Soccer Ball,99.96082306
+soccer_ball/image_0013.jpg,Soccer Ball,99.99790192
+soccer_ball/image_0014.jpg,Soccer Ball,99.99986267
+soccer_ball/image_0015.jpg,Soccer Ball,99.99707794
+soccer_ball/image_0016.jpg,Soccer Ball,99.98775482
+soccer_ball/image_0017.jpg,Soccer Ball,99.87421417
+soccer_ball/image_0018.jpg,Soccer Ball,99.99892426
+soccer_ball/image_0019.jpg,Soccer Ball,99.77687073
+soccer_ball/image_0020.jpg,Soccer Ball,99.99661255
+soccer_ball/image_0021.jpg,Soccer Ball,99.99967194
+soccer_ball/image_0022.jpg,Soccer Ball,99.99428558
+soccer_ball/image_0023.jpg,Soccer Ball,99.99201965
+soccer_ball/image_0024.jpg,Soccer Ball,99.99832916
+soccer_ball/image_0025.jpg,Soccer Ball,95.9306488
+soccer_ball/image_0026.jpg,Soccer Ball,99.99698639
+soccer_ball/image_0027.jpg,Soccer Ball,99.99932098
+soccer_ball/image_0028.jpg,Soccer Ball,99.99388885
+soccer_ball/image_0029.jpg,Soccer Ball,99.99723816
+soccer_ball/image_0030.jpg,Soccer Ball,99.99290466
+soccer_ball/image_0032.jpg,Soccer Ball,99.99907684
+soccer_ball/image_0033.jpg,Soccer Ball,99.97128296
+soccer_ball/image_0034.jpg,Soccer Ball,99.99764252
+soccer_ball/image_0035.jpg,Soccer Ball,99.99169159
+soccer_ball/image_0036.jpg,Soccer Ball,99.96720123
+soccer_ball/image_0037.jpg,Soccer Ball,99.99832153
+soccer_ball/image_0038.jpg,Soccer Ball,99.99688721
+soccer_ball/image_0039.jpg,Soccer Ball,99.98655701
+soccer_ball/image_0040.jpg,Soccer Ball,99.9996109
+soccer_ball/image_0041.jpg,Soccer Ball,99.99912262
+soccer_ball/image_0042.jpg,Soccer Ball,99.99539185
+soccer_ball/image_0043.jpg,Soccer Ball,99.99417877
+soccer_ball/image_0044.jpg,Soccer Ball,99.99622345
+soccer_ball/image_0045.jpg,Soccer Ball,99.99464417
+soccer_ball/image_0046.jpg,Soccer Ball,99.99788666
+soccer_ball/image_0047.jpg,Soccer Ball,99.91039276
+soccer_ball/image_0048.jpg,Soccer Ball,99.99186707
+soccer_ball/image_0049.jpg,Soccer Ball,99.99832916
+soccer_ball/image_0050.jpg,Soccer Ball,99.9863739
+soccer_ball/image_0051.jpg,Soccer Ball,99.99744415
+soccer_ball/image_0052.jpg,Soccer Ball,99.99089813
+soccer_ball/image_0053.jpg,Soccer Ball,99.93893433
+soccer_ball/image_0054.jpg,Soccer Ball,99.14952087
+soccer_ball/image_0055.jpg,Soccer Ball,99.99382019
+soccer_ball/image_0056.jpg,Soccer Ball,99.94670105
+soccer_ball/image_0057.jpg,Soccer Ball,99.99884033
+soccer_ball/image_0058.jpg,Soccer Ball,99.9980545
+soccer_ball/image_0059.jpg,Soccer Ball,89.68229675
+soccer_ball/image_0060.jpg,Soccer Ball,99.43442535
+soccer_ball/image_0061.jpg,Soccer Ball,82.67633057
+soccer_ball/image_0062.jpg,Soccer Ball,93.55886841
+soccer_ball/image_0063.jpg,Soccer Ball,93.2818985
+soccer_ball/image_0064.jpg,Soccer Ball,94.61973572
+stegosaurus/image_0001.jpg,Dinosaur,98.52373505
+stegosaurus/image_0003.jpg,Dinosaur,97.73097992
+stegosaurus/image_0005.jpg,Dinosaur,91.28057861
+stegosaurus/image_0006.jpg,Dinosaur,82.66400909
+stegosaurus/image_0007.jpg,Dinosaur,95.81070709
+stegosaurus/image_0008.jpg,Dinosaur,97.64011383
+stegosaurus/image_0010.jpg,Dinosaur,86.05516052
+stegosaurus/image_0011.jpg,Dinosaur,98.30018616
+stegosaurus/image_0013.jpg,Dinosaur,97.3742218
+stegosaurus/image_0014.jpg,Dinosaur,98.04756165
+stegosaurus/image_0017.jpg,Dinosaur,96.16081238
+stegosaurus/image_0018.jpg,Dinosaur,96.65424347
+stegosaurus/image_0019.jpg,Dinosaur,91.75222015
+stegosaurus/image_0020.jpg,Dinosaur,96.84382629
+stegosaurus/image_0021.jpg,Dinosaur,85.58448029
+stegosaurus/image_0022.jpg,Dinosaur,94.84899902
+stegosaurus/image_0023.jpg,Dinosaur,96.93896484
+stegosaurus/image_0025.jpg,Dinosaur,92.14699554
+stegosaurus/image_0026.jpg,Dinosaur,96.81863403
+stegosaurus/image_0027.jpg,Dinosaur,95.9135437
+stegosaurus/image_0028.jpg,Dinosaur,96.71152496
+stegosaurus/image_0029.jpg,Dinosaur,88.44029236
+stegosaurus/image_0031.jpg,Dinosaur,94.88788605
+stegosaurus/image_0032.jpg,Dinosaur,84.12744141
+stegosaurus/image_0033.jpg,Dinosaur,87.70838165
+stegosaurus/image_0034.jpg,Dinosaur,96.31907654
+stegosaurus/image_0036.jpg,Dinosaur,96.20811462
+stegosaurus/image_0038.jpg,Dinosaur,97.65086365
+stegosaurus/image_0040.jpg,Dinosaur,87.16105652
+stegosaurus/image_0042.jpg,Dinosaur,97.96208191
+stegosaurus/image_0044.jpg,Dinosaur,98.50098419
+stegosaurus/image_0046.jpg,Dinosaur,95.81866455
+stegosaurus/image_0048.jpg,Dinosaur,92.19878387
+stegosaurus/image_0053.jpg,Dinosaur,95.47952271
+stegosaurus/image_0056.jpg,Dinosaur,95.3010025
+stegosaurus/image_0059.jpg,Dinosaur,97.02693939
+stop_sign/image_0001.jpg,Stopsign,99.28358459
+stop_sign/image_0002.jpg,Stopsign,90.51585388
+stop_sign/image_0003.jpg,Stopsign,97.76171112
+stop_sign/image_0004.jpg,Stopsign,97.45250702
+stop_sign/image_0005.jpg,Stopsign,99.61624146
+stop_sign/image_0006.jpg,Stopsign,99.76035309
+stop_sign/image_0008.jpg,Stopsign,99.64263916
+stop_sign/image_0009.jpg,Stopsign,94.33685303
+stop_sign/image_0010.jpg,Stopsign,99.72738647
+stop_sign/image_0011.jpg,Stopsign,92.82500458
+stop_sign/image_0012.jpg,Stopsign,96.01219177
+stop_sign/image_0013.jpg,Stopsign,89.09893799
+stop_sign/image_0014.jpg,Stopsign,91.71509552
+stop_sign/image_0015.jpg,Stopsign,98.55376434
+stop_sign/image_0016.jpg,Stopsign,98.71233368
+stop_sign/image_0017.jpg,Stopsign,89.23945618
+stop_sign/image_0018.jpg,Stopsign,87.80205536
+stop_sign/image_0019.jpg,Stopsign,87.01994324
+stop_sign/image_0020.jpg,Stopsign,93.12282562
+stop_sign/image_0021.jpg,Stopsign,91.77719879
+stop_sign/image_0022.jpg,Stopsign,99.33357239
+stop_sign/image_0023.jpg,Stopsign,97.63748932
+stop_sign/image_0024.jpg,Stopsign,86.44250488
+stop_sign/image_0025.jpg,Stopsign,81.98252869
+stop_sign/image_0026.jpg,Stopsign,99.25935364
+stop_sign/image_0027.jpg,Stopsign,95.88503265
+stop_sign/image_0028.jpg,Stopsign,99.00926208
+stop_sign/image_0029.jpg,Stopsign,91.85977173
+stop_sign/image_0030.jpg,Stopsign,83.9376297
+stop_sign/image_0031.jpg,Stopsign,88.07923126
+stop_sign/image_0032.jpg,Stopsign,97.36965179
+stop_sign/image_0034.jpg,Stopsign,99.57196808
+stop_sign/image_0035.jpg,Stopsign,98.90364838
+stop_sign/image_0036.jpg,Stopsign,99.94648743
+stop_sign/image_0037.jpg,Stopsign,81.40677643
+stop_sign/image_0038.jpg,Stopsign,83.32594299
+stop_sign/image_0039.jpg,Stopsign,92.72666168
+stop_sign/image_0040.jpg,Stopsign,98.17358398
+stop_sign/image_0041.jpg,Stopsign,99.83262634
+stop_sign/image_0042.jpg,Stopsign,99.48728943
+stop_sign/image_0043.jpg,Stopsign,99.51696777
+stop_sign/image_0045.jpg,Stopsign,93.32610321
+stop_sign/image_0046.jpg,Stopsign,94.51215363
+stop_sign/image_0047.jpg,Stopsign,92.98001862
+stop_sign/image_0048.jpg,Stopsign,91.78588104
+stop_sign/image_0049.jpg,Stopsign,99.72267151
+stop_sign/image_0050.jpg,Stopsign,99.93065643
+stop_sign/image_0051.jpg,Stopsign,80.20331573
+stop_sign/image_0053.jpg,Stopsign,98.24861145
+stop_sign/image_0054.jpg,Stopsign,98.24285889
+stop_sign/image_0056.jpg,Stopsign,99.23413086
+stop_sign/image_0057.jpg,Stopsign,99.73348999
+stop_sign/image_0058.jpg,Stopsign,89.70973969
+stop_sign/image_0059.jpg,Stopsign,82.68882751
+stop_sign/image_0061.jpg,Stopsign,97.01295471
+stop_sign/image_0063.jpg,Stopsign,98.29650116
+stop_sign/image_0064.jpg,Stopsign,89.39386749
+wild_cat/image_0008.jpg,Cat,91.91021729
+wild_cat/image_0019.jpg,Cat,90.98812103
+wild_cat/image_0023.jpg,Cat,94.26541901
+wild_cat/image_0024.jpg,Cat,97.82225037
+wild_cat/image_0025.jpg,Cat,95.53411102
+wild_cat/image_0028.jpg,Cat,92.87429047
+wild_cat/image_0029.jpg,Cat,96.68487549
+wild_cat/image_0031.jpg,Cat,97.46936035
+yin_yang/image_0002.jpg,Soccer Ball,80.47825623
+yin_yang/image_0003.jpg,Soccer Ball,83.47402191
+yin_yang/image_0005.jpg,Soccer Ball,95.4733963
+yin_yang/image_0024.jpg,Soccer Ball,83.42951202
+yin_yang/image_0025.jpg,Soccer Ball,96.13829803
+yin_yang/image_0028.jpg,Soccer Ball,95.09133148
+yin_yang/image_0032.jpg,Soccer Ball,99.96863556
+yin_yang/image_0042.jpg,Soccer Ball,84.38751984
+yin_yang/image_0047.jpg,Soccer Ball,89.12518311
