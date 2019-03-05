@@ -1,7 +1,7 @@
 Easily perform Bulk Label Quality Assurance using Amazon SageMaker Ground Truth
 ================
 
-With the code in this repo, and accompanying [AWS blog post](TO DO ADD LINK), we’re going to walk you through an example situation where you’ve just built a machine learning system that labels your data at volume and you want to perform manual quality assurance (QA) on some of the labels. How can you do so without overwhelming your limited resources?  We’ll show you how, by using an [Amazon SageMaker Ground Truth](https://aws.amazon.com/sagemaker/groundtruth/) [custom labeling workflow](https://docs.aws.amazon.com/sagemaker/latest/dg/sms-custom-templates.html).
+With the code in this repo, and accompanying [AWS blog post](https://aws.amazon.com/blogs/machine-learning/easily-perform-bulk-label-quality-assurance-using-amazon-sagemaker-ground-truth/), we’re going to walk you through an example situation where you’ve just built a machine learning system that labels your data at volume and you want to perform manual quality assurance (QA) on some of the labels. How can you do so without overwhelming your limited resources?  We’ll show you how, by using an [Amazon SageMaker Ground Truth](https://aws.amazon.com/sagemaker/groundtruth/) [custom labeling workflow](https://docs.aws.amazon.com/sagemaker/latest/dg/sms-custom-templates.html).
 
 Rather than asking your workers to validate items one at a time, you’ll accomplish this by presenting a batch of already-labeled items that have been assigned the same label. You’ll ask the worker to mark any that aren’t correct. In this way, a workforce is able to quickly assess a much larger quantity of data than what they could label from scratch in the same time. 
 Use cases that may require quality assurance include:
@@ -18,7 +18,7 @@ This example uses a subset of the [CalTech 101 dataset](http://www.vision.caltec
 * shellfish.csv  
 
 # To Deploy
-Follow the instructions in this [AWS Blog post](https: < TO DO - UPDATE >) to set up a private labeling workforce, and to see the code in action.
+Follow the instructions in this [AWS Blog post](https://aws.amazon.com/blogs/machine-learning/easily-perform-bulk-label-quality-assurance-using-amazon-sagemaker-ground-truth/) to set up a private labeling workforce, and to see the code in action.
 
 To deploy manually (i.e., without using the blog "Launch template" bucket):
 * Clone this repo
